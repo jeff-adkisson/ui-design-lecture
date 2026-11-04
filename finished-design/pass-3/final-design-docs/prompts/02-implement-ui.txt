@@ -1,0 +1,21 @@
+Implement the Report Notes browser layer for Assessment System.
+
+Read finished-design-docs/01-project-review.md, 02-requirements.md, and 04-ui-design.md first, and
+open finished-design/pass-3/prototype.html as the visual reference. The UI design is the contract:
+build every region, control set, interaction rule, keyboard binding, and state it lists, and put the
+requirement ID in a comment at each rule. Match the prototype's look; do not copy its code.
+
+Stack: the existing report page, plain TypeScript modules notes.ts and notes.css loaded after the
+report, no framework. Persistence through the API in 03-technical-design.md; keep an in-memory list
+and re-render from it after every change, applying changes optimistically and reverting on 4xx.
+
+Deliver:
+- App bar, notes panel, overall card, hover rail with flyouts, margin chips, cards with undo, inline
+  callouts, selection bar, Hidden / Margin / Inline control with H, print preview with and without
+  notes, private and shared states, read-only cards for other people's notes.
+- Re-anchoring on load as specified in the technical design, with an Unplaced group.
+- The data-testid hooks named in 05-acceptance-testing.md.
+- ARIA labels and roles from the accessibility section; visible focus on every control.
+
+Desktop only: no responsive breakpoints. Do not add speech-to-text or microphone capture. Reply with
+a list of each requirement ID and the file and function that satisfies it.

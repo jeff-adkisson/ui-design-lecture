@@ -1,0 +1,18 @@
+Add sharing and multiple interviewers.
+
+- Notes start private. The owner toggles a note between "Private · share" and "Shared · make private" from its panel row or card. Shared notes are visible to anyone logged in who can open the report.
+- Nobody can edit, delete, recolor, re-rate, or change sharing on another person's note. Their cards open read-only with a line naming the owner, and the update and delete functions refuse any note the current user does not own, whatever called them.
+- Add a "Viewing as" switch in the app bar with three sample users.
+- Seed three interviewers on one candidate: private and shared inline notes, stamps, highlights, overall ratings with text, and at least one private note only its author sees. Chips for other people's shared notes show their initials.
+
+Every note keeps its section heading, quoted text, type, value, author, time, and report version so a later version can hand notes to an AI for a summary. Do not build the summary.
+
+When this is done and checked, open the local URL in my regular desktop browser, not an automation browser and not a Claude artifact, so I see it on screen. Then run this shell command so I hear it: say "Jeff, prompt 5 is complete and visible in your browser." Then reply.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

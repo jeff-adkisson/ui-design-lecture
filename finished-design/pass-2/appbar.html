@@ -1,0 +1,48 @@
+<header id="np-appbar" role="banner">
+  <div class="np-brand"><span class="np-logo">C</span><span>Compass</span></div>
+  <div class="np-crumb"><span id="np-who"></span></div>
+  <div class="np-right">
+    <span class="np-ver" id="np-ver" title="Report version"></span>
+    <button id="np-simulate" type="button" class="np-proto" aria-label="Simulate a report update" title="Prototype control: rewords one passage and bumps the report version"><i class="fa-solid fa-arrows-rotate"></i><span class="np-lbl"> Simulate a report update</span></button>
+    <div class="np-seg" id="np-view" role="group" aria-label="Show notes (H cycles)" title="Show notes: H cycles">
+      <button type="button" data-view="hidden" aria-pressed="false" aria-label="Hidden" title="Hidden"><i class="fa-solid fa-eye-slash"></i><span class="np-lbl"> Hidden</span></button>
+      <button type="button" data-view="margin" aria-pressed="true" aria-label="Margin" title="Margin"><i class="fa-solid fa-table-columns"></i><span class="np-lbl"> Margin</span></button>
+      <button type="button" data-view="inline" aria-pressed="false" aria-label="Inline" title="Inline"><i class="fa-solid fa-list"></i><span class="np-lbl"> Inline</span></button>
+      <kbd>H</kbd>
+    </div>
+    <div class="np-print-wrap">
+      <button type="button" id="np-print" class="np-btn" aria-haspopup="menu" aria-label="Print"><i class="fa-solid fa-print"></i><span class="np-lbl"> Print</span></button>
+      <div id="np-print-menu" class="np-menu" role="menu" hidden>
+        <button type="button" role="menuitem" data-print="with">With notes</button>
+        <button type="button" role="menuitem" data-print="without">Without notes</button>
+      </div>
+    </div>
+    <button id="np-toggle" type="button" aria-controls="np-panel" aria-expanded="true" title="Toggle notes (N)">
+      <i class="fa-solid fa-note-sticky"></i><span class="np-lbl">Notes</span><span id="np-total" class="np-pill">0</span><kbd>N</kbd>
+    </button>
+    <label class="np-user" title="Prototype: switch the signed-in user"><span class="np-av" id="np-me-av"></span><span class="np-as-lbl">Viewing as</span>
+      <select id="np-as" aria-label="Viewing as"></select></label>
+  </div>
+</header>
+<aside id="np-panel" aria-label="Notes">
+  <div class="np-head">
+    <h2>Notes</h2>
+    <div class="np-seg" role="tablist">
+      <button type="button" data-filter="page" role="tab" aria-selected="true">This page</button>
+      <button type="button" data-filter="all" role="tab" aria-selected="false">All</button>
+    </div>
+    <button type="button" id="np-close" class="np-icon" aria-label="Close notes (N)" title="Close (N)"><i class="fa-light fa-xmark"></i></button>
+  </div>
+  <div class="np-composer">
+    <div class="np-target"><i class="fa-solid fa-user"></i><span>Overall note</span></div>
+    <textarea id="np-input" rows="2" placeholder="A note about the candidate overall, Enter to save" aria-label="Overall note"></textarea>
+  </div>
+  <div id="np-list" class="np-list"></div>
+  <div class="np-foot">
+    <span>Rest the pointer on a line for the rail, or press <kbd>U</kbd> <kbd>D</kbd> <kbd>1</kbd>-<kbd>5</kbd> <kbd>Q</kbd> <kbd>C</kbd> to stamp or note it. Select text to highlight. <kbd>N</kbd> panel · <kbd>H</kbd> view.</span>
+    <button type="button" id="np-reset" class="np-link">Reset sample notes and report</button>
+  </div>
+</aside>
+<div id="np-rail" hidden></div>
+<div id="np-selbar" role="toolbar" aria-label="Highlight selection" hidden></div>
+<div id="np-toast" role="status" hidden></div>

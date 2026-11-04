@@ -1,0 +1,24 @@
+Organize notes into two classes and control how they show.
+
+Overall notes: a card above the report header and the first group in the panel. It has a rating strip and any number of text notes. Per person the strip allows one thumb, one star rating, and one marker, using the same hover flyouts and clear-on-click rule as the rail. Add an overall note text box in the panel. Show nothing in the report footer.
+
+Inline notes: everything anchored in the report, as built.
+
+One three-way control in the app bar: Hidden, Margin, Inline. H cycles; the choice is remembered.
+- Hidden removes chips and highlight colors; the panel still works.
+- Margin shows chips in the right gutter.
+- Inline renders each note as a callout under its block, clickable to edit. Highlights without text get a short callout showing their color.
+
+Print: a Print button offers "with notes" or "without notes" and opens an in-page preview of all pages. With notes uses the inline callouts and the overall card above the header.
+
+Stamps and highlights may carry text; that text appears everywhere the note does.
+
+When this is done and checked, open the local URL in my regular desktop browser, not an automation browser and not a Claude artifact, so I see it on screen. Then run this shell command so I hear it: say "Jeff, prompt 4 is complete and visible in your browser." Then reply.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

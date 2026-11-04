@@ -1,0 +1,22 @@
+Implement the Report Notes API and schema for Assessment System.
+
+Read finished-design-docs/01-project-review.md, 02-requirements.md, and 03-technical-design.md
+first. The technical design is the contract: implement its data model, routes, request and response
+shapes, authorization rules, and error codes exactly, and cite the requirement ID in a comment
+wherever a rule is enforced.
+
+Stack: Node 22, TypeScript, Express, Postgres 16, the project's existing query layer and session
+middleware. No new services or infrastructure.
+
+Deliver:
+- A migration creating annotations, annotation_events, the check constraints, the partial unique
+  index for one stamp per family per block per user, and the visible_annotations view.
+- Routes under /api/reports/:reportId/annotations and /api/annotations/:id as listed in the design.
+- Visibility and ownership enforced in SQL (author_id = $me OR visibility = 'shared'; UPDATE and
+  DELETE with AND author_id = $me), never only in application code.
+- A seed script with three interviewers and 30 annotations covering every kind, family, and
+  visibility, matching 05-acceptance-testing.md.
+- The API test cases from 05-acceptance-testing.md, passing.
+
+Do not add speech-to-text, audio upload, AI summaries, or real-time features. Do not change the
+report tables. Reply with the migration, the route list, and the test output.

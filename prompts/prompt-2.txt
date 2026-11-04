@@ -1,0 +1,24 @@
+Add inline annotations.
+
+Hover rail: resting the pointer on any block shows a vertical rail just outside the block's left edge. It follows the pointer inside tall blocks and never leaves the visible area. Buttons: thumbs, stars, markers, note.
+- Thumbs, stars, and markers open a flyout on hover. The user must click a value; the main icon sets nothing. Clicking the main icon clears that family's stamp if the block has one.
+- Thumbs: up, down. Stars: 1 to 5. Markers: question mark (follow up), flag, bomb (deal breaker), fire (strong), clapping hands (great answer).
+- One stamp per family per block per user. A new value replaces; the same value removes.
+- Note opens a small editor under the block with focus in the text box. Enter saves, Escape cancels.
+- Stamps never open an editor. Text is added by clicking the stamp's chip or its panel row.
+
+Margin chips: every note is a chip in the right margin aligned to its block, icon only until hovered. Click opens a card to edit text, change the value, or delete.
+
+Notes panel: notes in report order grouped by page and section heading. Clicking a row switches page, scrolls, flashes the anchor, and opens a collapsed section if needed.
+
+Durability: each note stores section heading, quoted text, type, value, author, time, and report version. Reports change rarely; a note whose text can no longer be found goes to an Unplaced group at the top of the panel instead of being lost.
+
+When this is done and checked, open the local URL in my regular desktop browser, not an automation browser and not a Claude artifact, so I see it on screen. Then run this shell command so I hear it: say "Jeff, prompt 2 is complete and visible in your browser." Then reply.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

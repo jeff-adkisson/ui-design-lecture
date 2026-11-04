@@ -1,0 +1,33 @@
+<header class="n-appbar" role="banner">
+  <span class="n-brand">Assessment System</span>
+  <span class="n-crumb">Reports › <b id="n-candidate"></b></span>
+  <span class="n-spacer"></span>
+  <div class="n-seg" id="n-mode" role="radiogroup" aria-label="Show notes" title="Show notes: press H to cycle">
+    <button type="button" role="radio" data-mode="hidden">Hidden</button><button type="button" role="radio" data-mode="margin">Margin</button><button type="button" role="radio" data-mode="inline">Inline</button>
+    <kbd class="n-kbd">H</kbd>
+  </div>
+  <div class="n-print-wrap">
+    <button type="button" class="n-btn" id="n-print" aria-haspopup="menu" aria-expanded="false" aria-controls="n-print-menu" aria-label="Print">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 6V2.5h7V6M4.5 11.5h-2v-5h11v5h-2M4.5 9.5h7v4h-7z"/></svg>
+      <span class="n-lbl">Print</span>
+    </button>
+    <div class="n-menu" id="n-print-menu" role="menu" hidden>
+      <button type="button" role="menuitem" data-print="with">With notes</button>
+      <button type="button" role="menuitem" data-print="without">Without notes</button>
+    </div>
+  </div>
+  <button type="button" class="n-btn" id="n-toggle" aria-controls="n-panel" aria-expanded="false" title="Show or hide notes (N)" aria-label="Notes">
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 2.5h10v7l-3.5 4h-6.5z"/><path d="M9.5 13.5v-4h3.5"/></svg>
+    <span class="n-lbl">Notes</span> <span class="n-count" id="n-count">0</span> <kbd class="n-kbd">N</kbd>
+  </button>
+  <label class="n-user" title="Sample users for the prototype"><span id="n-user-av"></span><span class="n-user-lbl">Viewing as</span><select id="n-as"></select></label>
+</header>
+<aside class="n-panel" id="n-panel" aria-labelledby="n-panel-title">
+  <div class="n-panel-head">
+    <h2 id="n-panel-title">Notes</h2><span class="n-sub" id="n-sub"></span>
+    <button type="button" class="n-close" id="n-close" title="Close (N)" aria-label="Close notes">
+      <svg viewBox="0 0 16 16" width="14" height="14" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg>
+    </button>
+  </div>
+  <div class="n-list" id="n-list"></div>
+</aside>

@@ -1,0 +1,17 @@
+<!--
+  REPORT NOTES — clickable prototype (not production code)
+
+  What it demonstrates: interviewers annotating a candidate's assessment report before, during, and
+  after an interview, in one or two gestures from where the pointer already is. Hover rail stamps
+  (thumbs, stars, markers) and notes on any block; text highlights with notes; margin chips, inline
+  callouts, or hidden; a notes panel in report order (N); overall ratings and notes; private or shared
+  notes with read-only access to other people's; "Viewing as" three sample interviewers; an in-page
+  print preview with or without notes. Notes anchor to page + section heading + quoted text (plus
+  surrounding text for highlights) and keep type, value, author, time, and report version.
+
+  Data: notes live only in each viewer's own browser storage (in memory for the visit where the host
+  blocks storage). Nothing is sent anywhere, so every viewer starts from the same sample data.
+
+  Out of scope, deliberately: speech-to-text and microphone capture. Audio leaving our systems is a
+  PII and SOC 2 problem. Do not add them.
+-->

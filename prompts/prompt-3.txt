@@ -1,0 +1,21 @@
+Add highlighting.
+
+Selecting report text by any means (drag, double-click, triple-click, keyboard) shows a bar above the selection: four color swatches, yellow first, and "highlight and note". One click highlights. The bar follows the live selection, stays until the selection collapses or a swatch is chosen, and clicking inside it must not disturb the selection. Flip it below the selection when there is no room above.
+
+Clicking an existing highlight opens its card to recolor, add or edit a note, or remove it. Text inside a highlight can still be selected and highlighted again.
+
+Every highlight gets a margin chip with a swatch in its color and a highlighter icon, so a highlight is never confused with a color the report template already uses.
+
+Anchor highlights by the quoted text plus a little text before and after, re-anchor on load, and treat a missing quote as Unplaced like any other note.
+
+Double-clicking a word in an accordion heading selects the word and leaves the section as it was. Do not delay single clicks to detect this; let the first click act and have the second click restore the section.
+
+When this is done and checked, open the local URL in my regular desktop browser, not an automation browser and not a Claude artifact, so I see it on screen. Then run this shell command so I hear it: say "Jeff, prompt 3 is complete and visible in your browser." Then reply.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

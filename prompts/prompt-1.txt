@@ -1,0 +1,22 @@
+We are designing a note-taking feature for our assessment reports. Build a clickable prototype, not production code. Interaction design comes first; technical choices only need to be reasonably possible later.
+
+A static copy of a sample report is already prepared as report.html in this folder and served locally. Its page menu, accordions, and Summary row links already work. Build the prototype on that copy as one self-contained HTML file.
+
+How the report works: two pages (Summary, Interview), one accordion per measure on Interview, and Summary measure rows that open the matching measure on Interview. Reports vary in content and shape, so never assume this layout. Any heading, paragraph, list item, table row, or chart row is a note target. Anchor notes to a heading plus quoted text, not to page structure.
+
+Constraints:
+- Users are logged in. No anonymous notes.
+- We are NOT doing speech-to-text or microphone capture. Do not suggest it. Audio leaving our systems is a PII and SOC 2 problem.
+- Every action takes one or two gestures. Interviewers use this before, during, and after an interview while staying focused on the candidate.
+
+Deliver the local URL, a thin app bar above the report, a notes panel on the right that toggles with N, and sample notes seeded in browser storage so the page opens in a realistic state. Build only that at this step. Ways to add notes come in the next prompts; do not invent any now.
+
+When this is done and checked, open the local URL in my regular desktop browser, not an automation browser and not a Claude artifact, so I see it on screen. Then run this shell command so I hear it: say "Jeff, prompt 1 is complete and visible in your browser." Then reply.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

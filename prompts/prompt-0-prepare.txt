@@ -1,0 +1,24 @@
+Prepare a static copy of a sample assessment report for a prototype. Do this before the session; nothing here is the feature itself.
+
+Report, no login needed:
+https://report.highmatch.com/LbOAeFTuzcRo3ZZeyJpSZTbIpMp5il
+
+It is an Angular app. Open it in a browser, let it render, switch through all four pages (Summary, Details, Interview, Develop) and expand every accordion so the full content is in the DOM, then capture the rendered DOM and every stylesheet, including the component styles Angular injects at runtime.
+
+Produce one self-contained file, report.html, in an empty local folder, served by a local HTTP server. Requirements:
+- Looks the same as the live report, with inline replacements for any icon fonts that cannot load.
+- The page menu switches pages, accordions open and close, and an Expand all control works on the pages that have one.
+- Clicking a measure row on Summary opens Interview with only that measure expanded and scrolls to it, as the live report does with Details.
+- Keep only the Summary and Interview pages. Drop Details and Develop; they repeat Interview. Point the Summary measure rows at the matching measure on Interview.
+- Keep the capture generic. Reports vary in content and shape, so do not hard-code anything tied to this candidate or this layout beyond the page names.
+- Remove the live report's action menu and anything that calls back to the server.
+
+Finish by opening the local URL in my regular desktop browser, not in an automation browser and not as a Claude artifact, so the report is on screen when the session starts. Reply with the local URL and a short list of what you verified.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

@@ -1,0 +1,14 @@
+Publish the prototype as a Claude artifact I can share with the class.
+
+- Publish the single HTML file as the artifact, titled "Report Notes", with a one-sentence description.
+- Put a short handoff note at the top of the source: what the prototype demonstrates, that notes live in each viewer's browser storage only so every viewer starts from the sample data, and that speech-to-text and microphone capture are deliberately out of scope for PII and SOC 2 reasons and must not be added.
+- The artifact frame cannot open the browser's print dialog; make sure the in-page print preview still works there and that nothing else depends on features the frame blocks.
+- Open the published artifact, confirm it loads with the sample notes and that the rail, highlights, panel, and "Viewing as" all work, then give me the link.
+
+---
+Lecture time limits. These lines exist only to keep a live demo short; a real run would leave them out.
+- Desktop only, one layout: a 1280 x 800 window with the notes panel open. Do not test other window sizes, panel states, phone, or tablet widths.
+- Verify by sampling: check one block of each kind you touched, for example one heading, one paragraph, one accordion, one chart row. Never check every block, and never every permutation of family, layout, and state.
+- Spend at most 60 seconds in the browser per check and at most 3 minutes checking in total. If something still fails after that, say so in your reply and move on.
+- No screenshots or comparison images unless a check fails.
+- Keep your reply under 15 lines.

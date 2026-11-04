@@ -1,0 +1,21 @@
+Implement the automated acceptance tests for Report Notes in Assessment System.
+
+Read finished-design-docs/02-requirements.md and 05-acceptance-testing.md first. The acceptance
+document is the contract: create every spec file and case it lists, each test named with its
+requirement ID, using the data-testid hooks and the three seeded interviewers.
+
+Stack: Playwright Test with TypeScript in tests/e2e, desktop Chromium at 1280 x 800, fixtures that
+log in through the session endpoint as Dana, Marcus, or Priya, and a global setup that resets the
+disposable Postgres and runs the seed.
+
+Rules:
+- Sample, do not enumerate. Write the pickBlocks helper that returns one heading, one paragraph,
+  one list item, one table row, and one chart row from the Interview page, and iterate those only.
+- Use real pointer movement for hover (page.mouse.move), real selection for drag, dblclick, and
+  triple-click, and keyboard events for N, H, Enter, and Escape.
+- Assert visibility in the DOM and in the API response for the sharing cases.
+- No test may take more than 30 seconds; no spec file more than 3 minutes.
+
+Deliver the specs, the helpers, a playwright.config.ts with the Chromium project per PR and Firefox
+and WebKit tagged nightly, and a CI job that runs the per-PR project. Reply with the run output and a
+table of requirement ID to test name.
