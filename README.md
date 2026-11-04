@@ -17,15 +17,8 @@ Live pages, served by GitHub Pages from this repo:
 |---|---|---|
 | 1 | [Prototype Design](https://jeff-adkisson.github.io/ui-design-lecture/finished-design/pass-1/report-notes.html) | Original design session, before the prompts existed |
 | 2 | [Prototype Design](https://jeff-adkisson.github.io/ui-design-lecture/finished-design/pass-2/index.html) | Built from an earlier draft of the prompts |
-| 3 | [Prototype Design](https://jeff-adkisson.github.io/ui-design-lecture/finished-design/pass-3/prototype.html)<br>[Design Docs](finished-design/pass-3/final-design-docs/) | Built from the final prompts, with the design documentation that follows the prototype |
+| 3 | [Prototype Design](https://jeff-adkisson.github.io/ui-design-lecture/finished-design/pass-3/prototype.html) | Built from the final prompts. Design documents for pass 3: [project review](finished-design/pass-3/final-design-docs/01-project-review.md), [requirements](finished-design/pass-3/final-design-docs/02-requirements.md), [technical design](finished-design/pass-3/final-design-docs/03-technical-design.md), [UI design](finished-design/pass-3/final-design-docs/04-ui-design.md), [acceptance testing](finished-design/pass-3/final-design-docs/05-acceptance-testing.md), [implementation prompts](finished-design/pass-3/final-design-docs/prompts/README.md). |
 | 4 | [Design Basis](https://jeff-adkisson.github.io/ui-design-lecture/finished-design/pass-4/report.html) | The bare two-page report the lecture starts from |
-
-Design documents for pass 3: [project review](finished-design/pass-3/final-design-docs/01-project-review.md),
-[requirements](finished-design/pass-3/final-design-docs/02-requirements.md),
-[technical design](finished-design/pass-3/final-design-docs/03-technical-design.md),
-[UI design](finished-design/pass-3/final-design-docs/04-ui-design.md),
-[acceptance testing](finished-design/pass-3/final-design-docs/05-acceptance-testing.md),
-[implementation prompts](finished-design/pass-3/final-design-docs/prompts/README.md).
 
 ## What is here
 
