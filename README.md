@@ -25,6 +25,7 @@ Live pages, served by GitHub Pages from this repo:
 | Path | Contents |
 |---|---|
 | [`prompts/`](prompts/README.md) | The prompts, in order. Plain text, one file per prompt. |
+| [`handout/`](handout/README.md) | Two-sided printed handout: AI slop vs. agentic software engineering. Word source, PDF, and build script. |
 | `finished-design/pass-1/` | The prototype as it came out of the original design session, before the prompts existed. |
 | `finished-design/pass-2/` | The prototype an agent built from an earlier draft of the prompts, start to finish, in one session. |
 | `finished-design/pass-3/` | The prototype an agent built from the final prompts, one prompt at a time, plus `final-design-docs/`. |
