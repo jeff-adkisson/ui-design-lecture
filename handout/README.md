@@ -54,21 +54,3 @@
 - ✓ Same-day replies to comments; fast submissions earn fast approvals.
 
 > **The model is not the engineer. You are.** Agents make a good engineer much faster and a careless one much more dangerous.
-
----
-
-## Files
-
-| File | What it is |
-|---|---|
-| `AI-Slop-vs-Agentic-SWE.docx` | The handout as a Word file. |
-| `AI-Slop-vs-Agentic-SWE.pdf` | A rendered copy for quick printing. |
-| `content.js` | The handout text. Edit this to change both the Word file and this page. |
-| `build.js` | Generates the `.docx` from `content.js` (needs the `docx` npm package). |
-| `build-md.js` | Generates this `README.md` from `content.js`. |
-
-Rebuild after editing `content.js`:
-
-```bash
-node build.js AI-Slop-vs-Agentic-SWE.docx && node build-md.js
-```
