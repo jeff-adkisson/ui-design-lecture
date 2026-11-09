@@ -11,6 +11,13 @@ and view or print the report with or without notes.
 
 Slides: [download presentation.pptx](https://github.com/jeff-adkisson/ui-design-lecture/raw/main/presentation/presentation.pptx) (74 MB).
 
+Handout: [AI Slop vs. Agentic Software Engineering](handout/README.md). A two-sided page for students
+contrasting how AI slop gets made with a disciplined partnership between a software engineer and AI
+agents: design and decision records, iteration, automated testing, standards, code review, adversarial
+review by an agent from a different lab, and review-ready code submissions. Printable
+[PDF](https://github.com/jeff-adkisson/ui-design-lecture/raw/main/handout/AI-Slop-vs-Agentic-SWE.pdf)
+and [Word](https://github.com/jeff-adkisson/ui-design-lecture/raw/main/handout/AI-Slop-vs-Agentic-SWE.docx) versions.
+
 Live pages, served by GitHub Pages from this repo:
 
 | Pass | Open | What it is |
@@ -25,6 +32,7 @@ Live pages, served by GitHub Pages from this repo:
 | Path | Contents |
 |---|---|
 | [`prompts/`](prompts/README.md) | The prompts, in order. Plain text, one file per prompt. |
+| [`handout/`](handout/README.md) | Handout: AI slop vs. agentic software engineering. Readable as Markdown, with printable PDF and Word versions. |
 | `finished-design/pass-1/` | The prototype as it came out of the original design session, before the prompts existed. |
 | `finished-design/pass-2/` | The prototype an agent built from an earlier draft of the prompts, start to finish, in one session. |
 | `finished-design/pass-3/` | The prototype an agent built from the final prompts, one prompt at a time, plus `final-design-docs/`. |
